@@ -1,5 +1,3 @@
-import org.jeasy.random.EasyRandom;
-
 public class Data {
     private final Address address;
     private final Person person;

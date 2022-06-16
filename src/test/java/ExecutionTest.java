@@ -4,11 +4,8 @@ class ExecutionTest {
 
     @RepeatedTest(10)
     void setAndReturnData() {
-        Address address = new Address("SPb");
-        Job job = new Job("job", "somewhere");
-        Person person = new Person("guy", "some");
 
-        Data res = Execution.setAndReturnData(address, job, person);
+        Data res = Execution.setAndReturnData();
         System.out.println(res.toString());
     }
 }
